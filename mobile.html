@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Cribyn is a London corporate intelligence firm. Investigations, due diligence and evidence verification where a decision cannot be made on paper alone.">
+<link rel="canonical" href="https://cribyn.com/mobile.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="Cribyn — mobile">
+<meta property="og:description" content="Cribyn is a London corporate intelligence firm. Investigations, due diligence and evidence verification where a decision cannot be made on paper alone.">
+<meta property="og:url" content="https://cribyn.com/mobile.html">
+<meta property="og:image" content="https://cribyn.com/cribyn-hero.jpg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cribyn — mobile</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Outfit:wght@300;400;500;600&display=swap">
+  <style>
+    body { margin: 0; background: #F9FAFC; }
+    @property --tally { syntax: '<integer>'; initial-value: 0; inherits: false; }
+    .tally { counter-reset: t var(--tally); animation: tally 2.4s cubic-bezier(0.16,1,0.3,1) forwards; }
+    .tally::after { content: counter(t); }
+    @keyframes tally { to { --tally: 500; } }
+    .rise { opacity: 0; transform: translateY(12px); animation: rise 0.8s cubic-bezier(0.16,1,0.3,1) forwards; }
+    @keyframes rise { to { opacity: 1; transform: translateY(0); } }
+    @media (prefers-reduced-motion: reduce) {
+      .rise, .tally { animation: none !important; opacity: 1 !important; transform: none !important; }
+      .tally::after { content: '500'; }
+    }
+    .cmp-range::-webkit-slider-thumb { width: 44px; height: 230px; }
+    .cmp-range::-moz-range-thumb { width: 44px; height: 230px; }
+  </style>
+  <script>
+    document.addEventListener("input", function (e) {
+      if (!e.target.classList || !e.target.classList.contains("cmp-range")) return;
+      e.target.parentElement.style.setProperty("--x", e.target.value + "%");
+    });
+  </script>
+<style>
+  html { background: #F9FAFC; }
+  body { margin: 0; display: flex; justify-content: safe center; }
+  a { color: inherit; text-decoration: none; }
+  .page { flex: none; }
+</style>
+</head>
+<body>
+<div class="page">
+<!-- iPhone 14/15 width. 24px gutters throughout; nothing narrower than 44px is tappable. -->
+<div style="width: 390px; min-height: 0; background: #F9FAFC; font-family: 'Outfit', system-ui, sans-serif; color: #0B1120; overflow: hidden;">
+
+  <!-- nav: wordmark and a menu control, nothing else fits honestly -->
+  <div style="display: flex; align-items: center; justify-content: space-between; padding: 18px 24px; border-bottom: 1px solid rgba(11,17,32,0.08); background: #F9FAFC;">
+    <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 20px; font-weight: 400; letter-spacing: 0.15em; text-transform: uppercase;">CRIB<span style="color: #0D5F7D;">Y</span>N</div>
+    <a href="index.html?mobile=0" style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #0D5F7D; padding: 12px 0;">Full site</a><div hidden style="width: 44px; height: 44px; display: flex; flex-direction: column; align-items: flex-end; justify-content: center; gap: 5px;">
+      <div style="width: 22px; height: 1px; background: #0B1120;"></div>
+      <div style="width: 22px; height: 1px; background: #0B1120;"></div>
+      <div style="width: 14px; height: 1px; background: #0B1120;"></div>
+    </div>
+  </div>
+
+  <!-- hero -->
+  <div style="position: relative; height: 496px; overflow: hidden; background: #23272B;">
+    <img src="cribyn-hero.jpg" alt="Cribyn, Bannau Brycheiniog" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 62% 42%;">
+    <div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(11,17,32,0.72) 0%, rgba(11,17,32,0.80) 55%, rgba(11,17,32,0.92) 100%);"></div>
+
+    <div style="position: relative; z-index: 2; padding: 44px 24px 0;">
+      <div class="rise" style="font-size: 10px; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: #38BDF8;">Corporate intelligence</div>
+      <div class="rise" style="width: 48px; height: 1px; background: rgba(56,189,248,0.6); margin: 16px 0 26px; animation-delay: 0.08s;"></div>
+      <h1 class="rise" style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 42px; font-weight: 300; line-height: 1.08; letter-spacing: -0.01em; margin: 0; color: #F1F5F9; animation-delay: 0.16s; text-wrap: pretty;">
+        Clarity where stakes are highest.
+      </h1>
+      <p class="rise" style="font-size: 15px; font-weight: 300; line-height: 1.75; color: rgba(241,245,249,0.72); margin: 22px 0 0; animation-delay: 0.28s; text-wrap: pretty;">
+        We are instructed when a decision cannot be made on paper alone. Cribyn offer senior relationships in key jurisdictions and network. We deliver analysis to enable educated, resilient decisions.
+      </p>
+      <div class="rise" style="margin-top: 30px; animation-delay: 0.4s;">
+        <a href="our-people.html"><div style="background: #F1F5F9; color: #0B1120; padding: 15px 0; width: 100%; text-align: center; font-size: 11px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase;">Discuss a mandate</div></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- the three numbers -->
+  <div style="background: #F9FAFC; border-bottom: 1px solid rgba(11,17,32,0.08);">
+    <div style="display: grid; grid-template-columns: 1fr 1fr;">
+      <div class="rise" style="padding: 22px 24px; border-right: 1px solid rgba(11,17,32,0.08); border-bottom: 1px solid rgba(11,17,32,0.08); animation-delay: 0.55s;">
+        <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 28px; font-weight: 300; line-height: 1;"><span class="tally"></span>+</div>
+        <div style="font-size: 9px; letter-spacing: 0.16em; text-transform: uppercase; color: #7E8A9A; margin-top: 8px;">Taskable sources</div>
+      </div>
+      <div class="rise" style="padding: 22px 24px; border-bottom: 1px solid rgba(11,17,32,0.08); animation-delay: 0.62s;">
+        <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 28px; font-weight: 300; line-height: 1; color: #0D5F7D;">C2PA</div>
+        <div style="font-size: 9px; letter-spacing: 0.16em; text-transform: uppercase; color: #7E8A9A; margin-top: 8px;">Provenance checked</div>
+      </div>
+      <div class="rise" style="grid-column: 1 / -1; padding: 22px 24px; animation-delay: 0.69s;">
+        <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 28px; font-weight: 300; line-height: 1;">A&#8211;F</div>
+        <div style="font-size: 9px; letter-spacing: 0.16em; text-transform: uppercase; color: #7E8A9A; margin-top: 8px;">Graded analysis</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- the name -->
+  <div style="padding: 24px; border-bottom: 1px solid rgba(11,17,32,0.08);">
+    </div>
+  </div>
+
+  <!-- three practices, stacked -->
+  <div style="background: #EDF1F7; padding: 40px 24px;">
+    <div style="border-top: 1px solid rgba(11,17,32,0.12); padding: 22px 0;">
+      <div style="font-size: 10px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: #0D5F7D;">01</div>
+      <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 26px; font-weight: 400; margin-top: 10px;">Intelligence</div>
+      <p style="font-size: 14px; font-weight: 300; line-height: 1.8; color: #46536A; margin: 10px 0 0;">Diligence before you commit — counterparties, principals, beneficial ownership, sanctions exposure, and the political terrain around a deal.</p>
+    </div>
+    <div style="border-top: 1px solid rgba(11,17,32,0.12); padding: 22px 0;">
+      <div style="font-size: 10px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: #0D5F7D;">02</div>
+      <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 26px; font-weight: 400; margin-top: 10px;">Investigations</div>
+      <p style="font-size: 14px; font-weight: 300; line-height: 1.8; color: #46536A; margin: 10px 0 0;">Asset tracing, enforcement, fraud and internal enquiries — drawing on both HUMINT and open source.</p>
+    </div>
+    <div style="border-top: 1px solid rgba(11,17,32,0.12); padding: 22px 0 0;">
+      <div style="font-size: 10px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: #0D5F7D;">03</div>
+      <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 26px; font-weight: 400; margin-top: 10px;">Verification</div>
+      <p style="font-size: 14px; font-weight: 300; line-height: 1.8; color: #46536A; margin: 10px 0 0;">Provenance analysis on documents and imagery, corroborated against independent sources.</p>
+    </div>
+  </div>
+
+  <!-- the differentiator, briefly -->
+  <div style="padding: 46px 24px;">
+    <div style="font-size: 10px; font-weight: 500; letter-spacing: 0.24em; text-transform: uppercase; color: #0D5F7D;">Where we are different</div>
+    <div style="width: 48px; height: 1px; background: rgba(13,95,125,0.45); margin: 16px 0 22px;"></div>
+    <h2 style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 32px; font-weight: 300; line-height: 1.16; margin: 0; text-wrap: pretty;">Anyone can assert a photograph is genuine.</h2>
+    <p style="font-size: 15px; font-weight: 300; line-height: 1.8; color: #4B5768; margin: 18px 0 22px; text-wrap: pretty;">
+      Convincing images can be made in seconds. Every file entering Cribyn is fully analysed, locations verified by independent satellite radar and a range of other touch points.
+    </p>
+    <div class="cmp" style="position: relative; height: 230px; overflow: hidden; background: #0B1120; border: 1px solid rgba(11,17,32,0.14); --x: 50%; touch-action: none;">
+      <img src="exhibit-sar.jpg" alt="Sentinel-1 radar, Houston Ship Channel" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;">
+        <svg viewBox="0 0 820 529" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none;" aria-hidden="true">
+          <g fill="none" stroke="#3FE0A0" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+            <path d="M0 188 L110 184 L215 208 L330 200 L425 184 L525 148 L625 98 L725 52 L820 16" stroke-dasharray="12 8" opacity="0.9"/>
+            <path d="M0 222 L120 218 L235 246 L335 236 L430 218 L530 176 L630 124 L735 80 L820 50" stroke-dasharray="12 8" opacity="0.9"/>
+            <rect x="292" y="170" width="140" height="82" rx="3"/>
+            <rect x="432" y="26" width="178" height="132" rx="3"/>
+            <rect x="556" y="214" width="150" height="120" rx="3"/>
+          </g>
+          <g font-family="Outfit, system-ui, sans-serif" font-size="22" font-weight="500" letter-spacing="2" fill="#3FE0A0">
+            <rect x="14" y="232" width="230" height="34" fill="#0B1120" fill-opacity="0.78" rx="3"/><text x="26" y="257">SHIP CHANNEL</text>
+            <rect x="292" y="256" width="290" height="34" fill="#0B1120" fill-opacity="0.78" rx="3"/><text x="304" y="281">DOCKS AND BERTHS</text>
+            <rect x="432" y="160" width="300" height="34" fill="#0B1120" fill-opacity="0.78" rx="3"/><text x="444" y="185">PROCESSING PLANT</text>
+            <rect x="556" y="338" width="200" height="34" fill="#0B1120" fill-opacity="0.78" rx="3"/><text x="568" y="363">TANK FARM</text>
+          </g>
+        </svg>
+      <div class="cmp-top" style="position: absolute; top: 0; bottom: 0; left: 0; width: var(--x); overflow: hidden;">
+        <img src="exhibit-site.jpg" alt="Refinery and tank farm, Gulf Coast" style="position: absolute; top: 0; left: 0; width: 340px; height: 228px; object-fit: cover;">
+      </div>
+      <div style="position: absolute; top: 0; left: 0; padding: 7px 10px; background: rgba(255,255,255,0.92);"><div style="font-size: 8px; letter-spacing: 0.16em; text-transform: uppercase; color: #4B5768;">What we were given</div></div>
+      <div style="position: absolute; top: 0; right: 0; padding: 7px 10px; background: rgba(11,17,32,0.82);"><div style="font-size: 8px; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(241,245,249,0.7);">What the satellite saw</div></div>
+      <div style="position: absolute; top: 0; bottom: 0; left: var(--x); width: 2px; background: #F1F5F9; transform: translateX(-1px);">
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 40px; height: 40px; border-radius: 50%; background: #F1F5F9; box-shadow: 0 4px 16px rgba(11,17,32,0.35); display: flex; align-items: center; justify-content: center; font-size: 13px; color: #0B1120;">&#8596;</div>
+      </div>
+      <div style="position: absolute; bottom: 0; left: 0; right: 0; padding: 8px 10px; background: linear-gradient(180deg, rgba(11,17,32,0) 0%, rgba(11,17,32,0.88) 100%); pointer-events: none;">
+        <div style="font-size: 10px; color: #F1F5F9;">Drag to compare <span style="color: #3FE0A0;">&#183; green</span><span style="color: rgba(241,245,249,0.7);"> = structures matched in both. Anything in the photograph that returns nothing on radar is not there.</span></div>
+      </div>
+      <input class="cmp-range" type="range" min="0" max="100" value="50" aria-label="Compare the photograph with the radar image" style="position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: ew-resize; touch-action: none;">
+    </div>
+    </div>
+
+  <!-- coverage, briefly -->
+  <div style="background: #E4EBF3; padding: 44px 24px;">
+    <div style="font-size: 10px; font-weight: 500; letter-spacing: 0.24em; text-transform: uppercase; color: #0D5F7D;">Coverage</div>
+    <div style="width: 48px; height: 1px; background: rgba(13,95,125,0.45); margin: 16px 0 20px;"></div>
+    <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 30px; font-weight: 300; line-height: 1.2;">Standing relationships where a filing tells you least and a source tells you most.</div>
+    <div style="margin-top: 22px;">
+      <div style="font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: #7E8A9A; margin-bottom: 14px;">Standing relationships</div>
+      <div style="border-top: 1px solid rgba(11,17,32,0.14); padding: 12px 0; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 20px;">Sub-Saharan Africa</div>
+      <div style="border-top: 1px solid rgba(11,17,32,0.14); padding: 12px 0; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 20px;">Former Soviet republics</div>
+      <div style="border-top: 1px solid rgba(11,17,32,0.14); padding: 12px 0; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 20px;">The Balkans</div>
+      <div style="border-top: 1px solid rgba(11,17,32,0.14); padding: 12px 0; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 20px;">MENA</div>
+      <div style="border-top: 1px solid rgba(11,17,32,0.14); border-bottom: 1px solid rgba(11,17,32,0.14); padding: 12px 0; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 20px;">Asia</div>
+    </div>
+
+  <!-- footer -->
+  <div style="background: #0B1120; color: #F9FAFC; padding: 40px 24px;">
+    <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 19px; letter-spacing: 0.16em; text-transform: uppercase;">CRIB<span style="color: #38BDF8;">Y</span>N</div>
+    <div style="font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(251,250,247,0.4); margin-top: 14px;">Clarity where stakes are highest</div>
+    <div style="height: 1px; background: rgba(251,250,247,0.12); margin: 26px 0;"></div>
+    <div style="font-size: 13px;">Cribyn</div>
+    <div style="font-size: 13px; font-weight: 300; color: rgba(251,250,247,0.6); margin-top: 10px; line-height: 1.8;">London<br>contact@cribyn.com</div>
+    <div style="font-size: 10px; font-weight: 300; color: rgba(251,250,247,0.3); margin-top: 22px; line-height: 1.6;">Contains modified Copernicus Sentinel data 2026</div>
+  </div>
+
+</div>
+</div>
+</div>
+</body>
+</html>
